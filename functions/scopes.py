@@ -1,7 +1,7 @@
 '12.02.24=======================Области видимости======================='
-#LEGB - local enclosed global build-in
+#LEGB - local enclosed global built-in
 
-'=======================Build-in======================='
+'=======================Built-in======================='
 # Встроенное пространство имен таких как (list, print, dict, len, input)
 
 '=======================Global======================='
@@ -34,8 +34,8 @@
 # def func(a, b):
 #     res = a+b
 #     print(res)
-    # print(locals())
-    # print(globals())
+#     print(locals())
+#     print(globals())
 # func(10, 5)  #15
 
 # def count_(num):
@@ -54,6 +54,4 @@
 # func()()()()
 
 
-
-    
 

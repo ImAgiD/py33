@@ -193,6 +193,8 @@
 # # sum_2(10, 5) # nur 1 Mal
 # print(sum_2(10, 5))
 
+import calendar
+year = 2024
+print(calendar.calendar(int(year)))
 
-    
     

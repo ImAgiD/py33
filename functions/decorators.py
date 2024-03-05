@@ -13,15 +13,15 @@
 '13.02.24============================Decorators==========================='
 # это - функции высшего порядка, которые нужны для расширения функционала другой функции не изменяя её (функция оберток)
 
-def decorator_glushitel(func):
-    def wrapper(*args, **kwargs):
-        text = func(*args, **kwargs)
-        res = 'тихо ' + text
-        print(res)
-    return wrapper
+# def decorator_glushitel(func):
+#     def wrapper(*args, **kwargs):
+#         text = func(*args, **kwargs)
+#         res = 'тихо ' + text
+#         print(res)
+#     return wrapper
 
-def gun():
-    print('стрелять')
+# def gun():
+#     print('стрелять')
 
 # wrapper = decorator_glushitel(gun)   
 # wrapper()  #способ вызвать декоратор в ручную

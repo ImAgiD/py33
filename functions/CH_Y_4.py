@@ -79,7 +79,6 @@
 
 
 
-
 '''8) Cоздайте переменную list_ и сохраните в ней список из чисел. Создайте новый
 список, используя встроенные функции, состоящий из квадратов этих чисел, результат
 сохраните в новой переменной result и выведите в консоль.
@@ -131,8 +130,8 @@
 #     else:
 #         print(f'{k}, извините, Вы не проходите по age-control')
 
-a = ['father', 'mother', 'brother', 'sister']
-b = []
-for i in a:
-    b.append(i.capitalize())
-print(b)
+# a = ['father', 'mother', 'brother', 'sister']
+# b = []
+# for i in a:
+#     b.append(i.capitalize())
+# print(b)
