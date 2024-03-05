@@ -1,5 +1,5 @@
 '21.02.24====================JSON===================='
-# JavaScript Objekt Notation - универсальный фромат, в котором мы можем хранит данные в типах данных, понятных почти для всех языков программирования
+# JavaScript Objekt Notation - универсальный формат, в котором мы можем хранит данные в типах данных, понятных почти для всех языков программирования
 
 import json
 # json_list = '[1,2,3,4,5]'
@@ -24,12 +24,12 @@ import json
 # json_data = json.dumps(python_data)  # поменяет json str на list python
 # print(json_data)  # null 
 
-python_data = [1,2,3,4, True, False, None, 'makers']
-with open ('test.json', 'w') as file:
-    json.dump(python_data, file)   # python data получаем
+# python_data = [1,2,3,4, True, False, None, 'makers']
+# with open ('test.json', 'w') as file:
+#     json.dump(python_data, file)   # python data получаем
      
 # сериализация - перевод python объектов в json строку
-# 1 метод dums - метод для сериализации с json строку
-# 2 метод dum - метод для сериализации с json файл
+# 1 метод dumps - метод для сериализации в json строку
+# 2 метод dump - метод для сериализации в json файл
 
 # в json нет set, а с tuple проблемы

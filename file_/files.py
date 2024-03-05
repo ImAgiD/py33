@@ -9,7 +9,7 @@
 #2 w - write (только для записи, каждый раз файл очищается)
 #3 a -append - (только для дозаписи, добавляется в конец) 
 #4 x - создаеет файл, но если он существует выйдет ошибка
-#
+
 '21.02.24======================Read======================'
 # file = open('test1.txt', 'r')
 # print(dir(file))
@@ -33,11 +33,11 @@
 # file = open('test1.txt', 'w')   #пишет новый текст свой, очищая старого
 # file.write('makers\nHELLO WORLD')
 # file.writelines(['hello world\n', 'Makers\n']) 
-# file.close()
+# # file.close()
 'write(str), writlines(list[str, str])'
 
 '21.02.24======================Append======================'
-# a - добавляет записи в коней
+# a - добавляет записи в конец
 # file = open('test1.txt', 'a')
 # file.write('py33\n')
 # file.seek(0) 
@@ -46,8 +46,22 @@
 
 '21.02.24======================Контекстный менеджер======================'
 # with - Основное преимущество использования with - это гарантия закрытия файла вне зависимости от того, как будет завершён вложенный код.
-with open('test1.txt', 'r') as f:
-    print(f.read()) 
+# with open('test1.txt', 'r') as f:
+#     print(f.read()) 
 
-print(f.closed)  #True  - файл закрыт
+# print(f.closed)  #True  - файл закрыт
+
+# with open('task1.txt', 'r') as f:
+#     for line in f.readlines(10):
+#         print(line)
+
+# with open('task3.txt', 'w+') as file_:
+#     for i in range(10):
+#         file_.write(f'{i}*')
+#     file_.seek(0)
+
+#     print(file_.read())
+    
+# with open ('task4.txt', 'r') as file_:
+#     print(len(file_.readlines()))
 
